@@ -1,0 +1,46 @@
+{
+  "system":[
+    {
+      "debug_level": "DEBUG",
+      "lora_module": "-",
+      "port": "-",
+      "baudrate": 9600,
+      "number_of_messages": -,
+      "sampling_period": 60,
+      "message": "-"
+    }
+  ],
+
+  "lora":[
+    {
+      "base_band": "-",
+      "base_band_DR": -,
+      "class": "A",
+      "rxwin2_freq": 923.3,
+      "rxwin2_dr": "DR8",
+      "auth_mode": "LWABP",
+      "tx_power": 20,
+      "uplink_dr": "DR1",
+      "chan0_freq": 917.2,
+      "chan0_dr": "DR1",
+      "chan1_freq": 917.9,
+      "chan1_dr": "DR1",
+      "adr": "OFF",
+      "repeat": -,
+      "retry": -,
+      "port": 10
+  }
+  ],
+    
+
+  "ttn":[
+    {
+    "dev_eui": "",
+    "app_eui" : "",
+    "dev_addr": "",
+    "nwks_key": "",
+    "app_key": "",
+    "apps_key": ""
+    }
+  ]
+}
